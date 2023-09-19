@@ -32,7 +32,7 @@ function calculate(Type) {
   } else if (Type === "Subtract") {
     currentResult -= Input;
     mathopr = "-";
-  }else if(Type==="MULTLIPY"){
+  }else if(Type==="MULTIPY"){
     currentResult *= Input;
     mathopr = "*";
   }else if(Type==="DIVIDE"){
